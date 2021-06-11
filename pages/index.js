@@ -162,7 +162,33 @@ export default function Home() {
                 </Grid>
             </main>
 
-            <footer></footer>
+            <footer>
+                <Box
+                    pos="absolute"
+                    top="100%"
+                    width="100%"
+                    bg={useColorModeValue("white", "gray.800")}
+                    h="50px"
+                >
+                    <Center h="50px">
+                        <Text>
+                            Copyright © 2021{" "}
+                            <Text
+                                color={useColorModeValue(
+                                    "green.700",
+                                    "green.100"
+                                )}
+                                display="inline"
+                                fontWeight="bold"
+                            >
+                                Pixuland Network
+                            </Text>{" "}
+                            | Todos los derechos Reservados | No estamos
+                            afiliados con Mojang AB
+                        </Text>
+                    </Center>
+                </Box>
+            </footer>
         </div>
     );
 }

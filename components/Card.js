@@ -1,11 +1,4 @@
-import {
-    Box,
-    Center,
-    Heading,
-    Text,
-    Stack,
-    useColorModeValue,
-} from "@chakra-ui/react";
+import { Box, Center, useColorModeValue } from "@chakra-ui/react";
 
 export default function Card(props) {
     return (

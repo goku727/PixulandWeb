@@ -31,13 +31,13 @@ const NAV_ITEMS = [
         label: "Novedades",
         children: [
             {
-                label: "Survival",
-                subLabel: "Find your dream design job",
+                label: "Survival (1.17)",
+                subLabel: "El clásico modo de juego de Minecraft",
                 href: "/noticias/survival",
             },
             {
-                label: "Mods",
-                subLabel: "An exclusive list for contract work",
+                label: "Mods (1.12.2)",
+                subLabel: "Una experiencia totalmente nueva",
                 href: "/noticias/mods",
             },
         ],
@@ -212,7 +212,7 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
             display={"block"}
             p={2}
             rounded={"md"}
-            _hover={{ bg: useColorModeValue("pink.50", "gray.900") }}
+            _hover={{ bg: useColorModeValue("gray.50", "gray.900") }}
         >
             <Stack direction={"row"} align={"center"}>
                 <Box>
