@@ -9,7 +9,7 @@ export default function FourOhFour() {
             <Nav active="" />
             <Center pt="60px" h="100%">
                 <Image
-                    src="/images/404.gif"
+                    src="https://xtebbegr.sirv.com/Pixuland/404.gif"
                     alt="Error 404 "
                     width={"800px"}
                     height={"500px"}
@@ -25,7 +25,7 @@ export default function FourOhFour() {
             </Center>
             <Center>
                 <Image
-                    src="/images/404.jpg"
+                    src="https://xtebbegr.sirv.com/Pixuland/404.jpg"
                     alt="Error 404 "
                     width={"259px"}
                     height={"194px"}

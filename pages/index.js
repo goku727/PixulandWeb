@@ -31,13 +31,18 @@ export default function Home() {
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Pixuland Network" />
                 <meta property="og_url" content="https://pixuland.com" />
+                <meta
+                    name="description"
+                    content="Página óficial de la Network de Pixuland."
+                />
+                <meta name="robots" content="index" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
             <main>
                 <Parallax
                     blur={{ min: -15, max: 15 }}
-                    bgImage="./images/img.jpg"
+                    bgImage="https://xtebbegr.sirv.com/Pixuland/img.jpg"
                     bgImageAlt="Mundo normal"
                     strength={-150}
                     className={styles.parallax}
@@ -64,13 +69,16 @@ export default function Home() {
 
                 <Parallax
                     blur={{ min: -15, max: 15 }}
-                    bgImage="./images/img2.jpg"
+                    bgImage="https://xtebbegr.sirv.com/Pixuland/img2.jpg"
                     bgImageAlt="Las cuevas"
                     strength={-200}
                     className={styles.parallax}
                 >
-                    <Box mb={"0"} h={{ base: "250vh", md: "100vh" }}>
-                        <Center h={{ base: "250vh", md: "100vh" }}>
+                    <Box
+                        mb={"0"}
+                        h={{ base: "250vh", sm: "175vh", md: "100vh" }}
+                    >
+                        <Center h={{ base: "250vh", sm: "175vh", md: "100vh" }}>
                             <Grid
                                 templateColumns={{
                                     base: "repeat(1, 1fr)",
@@ -229,7 +237,7 @@ export default function Home() {
 
                 <Parallax
                     blur={{ min: -15, max: 15 }}
-                    bgImage="./images/img3.jpg"
+                    bgImage="https://xtebbegr.sirv.com/Pixuland/img3.jpg"
                     bgImageAlt="El nether"
                     strength={-200}
                     className={styles.parallax}
@@ -238,7 +246,7 @@ export default function Home() {
                 </Parallax>
                 <Parallax
                     blur={{ min: -15, max: 15 }}
-                    bgImage="./images/img4.jpg"
+                    bgImage="https://xtebbegr.sirv.com/Pixuland/img4.jpg"
                     bgImageAlt="El end"
                     strength={-200}
                     className={styles.parallax}
