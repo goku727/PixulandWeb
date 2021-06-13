@@ -61,7 +61,7 @@ export default function Nav(props) {
     const { isOpen, onToggle } = useDisclosure();
 
     return (
-        <Box pos="fixed" width="100%">
+        <Box pos="fixed" width="100%" zIndex="9">
             <Flex
                 bg={useColorModeValue("white", "gray.800")}
                 color={useColorModeValue("gray.600", "white")}

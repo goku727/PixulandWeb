@@ -6,7 +6,6 @@ export default function ThemeSwitch() {
     const { colorMode, toggleColorMode } = useColorMode();
     return (
         <Button onClick={toggleColorMode}>
-            Tema:{" "}
             {colorMode === "light" ? (
                 <SunIcon ml="5px" />
             ) : (
