@@ -20,6 +20,7 @@ import {
     MdUpdate,
 } from "react-icons/md";
 import { Parallax } from "react-parallax";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
     return (
@@ -37,9 +38,9 @@ export default function Home() {
                 <Parallax
                     blur={{ min: -15, max: 15 }}
                     bgImage="./images/img.jpg"
-                    bgStyle="width: 1920px"
                     bgImageAlt="Mundo normal"
                     strength={-150}
+                    className={styles.parallax}
                 >
                     <Box mb={"0"}>
                         <Center h={{ base: "500px", md: "100vh" }}>
@@ -66,6 +67,7 @@ export default function Home() {
                     bgImage="./images/img2.jpg"
                     bgImageAlt="Las cuevas"
                     strength={-200}
+                    className={styles.parallax}
                 >
                     <Box mb={"0"} h={{ base: "250vh", md: "100vh" }}>
                         <Center h={{ base: "250vh", md: "100vh" }}>
@@ -230,6 +232,7 @@ export default function Home() {
                     bgImage="./images/img3.jpg"
                     bgImageAlt="El nether"
                     strength={-200}
+                    className={styles.parallax}
                 >
                     <Box mb={"0"} h={{ base: "500px", md: "100vh" }}></Box>
                 </Parallax>
@@ -238,6 +241,7 @@ export default function Home() {
                     bgImage="./images/img4.jpg"
                     bgImageAlt="El end"
                     strength={-200}
+                    className={styles.parallax}
                 >
                     <Box mb={"0"} h={{ base: "500px", md: "100vh" }}></Box>
                 </Parallax>
